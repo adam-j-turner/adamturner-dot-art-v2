@@ -19,8 +19,11 @@
   display: flex;
   flex-direction: row;
   gap: 10px;
-  padding-top: 1rem;
-  padding-left: 3rem;
+  margin-top: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 5%;
+  position: absolute;
 }
 
 a.nostyle:link {
@@ -33,12 +36,16 @@ a.nostyle:visited {
 }
 
 .nav-desc {
-  max-width: 25rem;
-  min-width: 20rem;
+  max-width: 50rem;
+  min-width: 15rem;
+}
+.nav-desc p {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .header {
-  height: 15rem;
+  height: auto;
   width: 100%;
 }
 
@@ -66,35 +73,29 @@ a.nostyle:visited {
   background-color: rgb(126, 255, 167)
 }
 
-.image-slider-outer {
+.scroll-dir-indicator {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  color: rgb(0, 0, 0);
+  opacity: 60%;
 }
-.image-slider-outer div {
-  align-self: center;
-}
+
 .image-slider {
   display: flex;
-  margin-left: 6rem;
-  margin-top: 4rem;
-  justify-content: center;
+  gap: 7%;
 }
 .image-slider img {
   align-self: center;
+  height: 50vh;
 }
-.image-slider-nav {
-  display: flex;
-  align-content: center;
-  justify-content: space-between;
-  width: 85%;
-  margin-top: 3rem;
+.image-slider-mobile {
+  flex-direction: column;
 }
-.image-slider-nav button {
-  background-color: transparent;
-  border: transparent;
-}
-.image-slider-nav button:hover {
-  background-color: rgb(126, 255, 167)
+.image-slider-mobile img {
+  height: auto;
+  width: 92vw;
+  align-self: center;
 }
 
 h1 {

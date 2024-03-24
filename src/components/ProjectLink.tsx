@@ -1,9 +1,9 @@
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation } from "react-router-dom";
 
-export default function ProjectLink({ path, children }) {
-  let className = 'project-link';
+export default function ProjectLink({ path, children }: any) {
+  let className = "project-link";
   if (useLocation().pathname == path) {
-    className += ' project-link-selected'
+    className += " project-link-selected";
   }
 
   return (
@@ -12,5 +12,5 @@ export default function ProjectLink({ path, children }) {
         {children}
       </Link>
     </>
-  )
+  );
 }

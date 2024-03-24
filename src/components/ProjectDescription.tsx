@@ -1,4 +1,4 @@
-export default function ProjectDescription({ children }) {
+export default function ProjectDescription({ children }: any) {
   return (
     <>
       <div>
