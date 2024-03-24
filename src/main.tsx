@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './index.css'
 import Home from './routes/Home.tsx';
 import IBiB from './routes/IBiB.tsx';
+import About from './routes/About.tsx';
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
   {
     path: "/ibib",
     element: <IBiB />
+  },
+  {
+    path: "/about",
+    element: <About />
   }
 ]);
 

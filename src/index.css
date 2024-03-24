@@ -23,6 +23,15 @@
   padding-left: 3rem;
 }
 
+a.nostyle:link {
+  text-decoration: inherit;
+  color: inherit;
+}
+a.nostyle:visited {
+  text-decoration: inherit;
+  color: inherit;
+}
+
 .nav-desc {
   max-width: 25rem;
   min-width: 20rem;
