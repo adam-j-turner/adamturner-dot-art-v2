@@ -29,16 +29,7 @@ export default function IBiB() {
         <div className="nav-desc">
           <Header />
           <ProjectDescription>
-            Sed ligula est, condimentum sed elit et, consequat ullamcorper
-            ipsum. Vestibulum posuere sit amet leo nec sodales. Curabitur
-            consectetur eget tellus ut tempor. Nulla maximus orci sed justo
-            consectetur tincidunt. Integer pulvinar condimentum euismod. Quisque
-            interdum quis neque quis venenatis. Etiam dapibus mattis velit at
-            congue. Vivamus nec quam non eros dignissim vestibulum. Maecenas
-            tincidunt commodo accumsan. Proin aliquet sem ut augue vestibulum,
-            vitae sagittis nisl ornare. Sed vel efficitur ipsum. Etiam at arcu
-            id elit vestibulum scelerisque. Nulla vel sagittis velit, quis
-            suscipit arcu.
+            <i><b>I Believe in Bugs</b></i> is a love letter to the late poet, singer and humorist Ivor Cutler (1959 - 2006), and is titled after Ivor's song of the same name. It explores the personification of, and relationships between, objects, insects and animals. 
           </ProjectDescription>
           <ScrollDirIndicator />
           <ImageSlider paths={images} />
