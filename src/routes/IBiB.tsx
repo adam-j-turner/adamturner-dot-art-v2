@@ -18,6 +18,8 @@ const images = [
   "/img/ibib/12.jpg",
   "/img/ibib/13.jpg",
   "/img/ibib/14.jpg",
+  "/img/ibib/15.jpg",
+  "/img/ibib/16.jpg"
 ];
 
 export default function IBiB() {
