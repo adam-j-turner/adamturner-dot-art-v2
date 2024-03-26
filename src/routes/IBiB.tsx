@@ -19,7 +19,7 @@ const images = [
   "/img/ibib/13.jpg",
   "/img/ibib/14.jpg",
   "/img/ibib/15.jpg",
-  "/img/ibib/16.jpg"
+  "/img/ibib/16.jpg",
 ];
 
 export default function IBiB() {
@@ -29,7 +29,13 @@ export default function IBiB() {
         <div className="nav-desc">
           <Header />
           <ProjectDescription>
-            <i><b>I Believe in Bugs</b></i> is a love letter to the late poet, singer and humorist Ivor Cutler (1959 - 2006), and is titled after Ivor's song of the same name. It explores the personification of, and relationships between, objects, insects and animals. 
+            <i>
+              <b>I Believe in Bugs</b>
+            </i>{" "}
+            is a love letter to the late poet, singer and humorist Ivor Cutler
+            (1959 - 2006), and is titled after Ivor's song of the same name. It
+            explores the personification of, and relationships between, objects,
+            insects and animals.
           </ProjectDescription>
           <ScrollDirIndicator />
           <ImageSlider paths={images} />
