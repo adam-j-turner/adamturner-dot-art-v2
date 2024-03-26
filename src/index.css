@@ -36,14 +36,11 @@ a.nostyle:visited {
   max-width: 50rem;
   min-width: 15rem;
 }
-.nav-desc p {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
 
 .header {
   height: auto;
   width: 100%;
+  margin-bottom: 2rem;
 }
 
 .project-list {
@@ -86,11 +83,14 @@ a.nostyle:visited {
   align-self: center;
   height: 50vh;
 }
+.image-slider-xl img {
+  height: 70vh !important;
+}
 .image-slider-mobile {
   flex-direction: column;
 }
 .image-slider-mobile img {
-  height: auto;
+  height: auto !important;
   width: 92vw;
   margin-bottom: 4vh;
 }
