@@ -3,24 +3,12 @@ import ImageSlider from "../components/ImageSlider";
 import ProjectDescription from "../components/ProjectDescription";
 import ScrollDirIndicator from "../components/ScrollDirIndicator";
 
-const images = [
-  "/img/ibib/1.jpg",
-  "/img/ibib/2.jpg",
-  "/img/ibib/3.jpg",
-  "/img/ibib/4.jpg",
-  "/img/ibib/5.jpg",
-  "/img/ibib/6.jpg",
-  "/img/ibib/7.jpg",
-  "/img/ibib/8.jpg",
-  "/img/ibib/9.jpg",
-  "/img/ibib/10.jpg",
-  "/img/ibib/11.jpg",
-  "/img/ibib/12.jpg",
-  "/img/ibib/13.jpg",
-  "/img/ibib/14.jpg",
-  "/img/ibib/15.jpg",
-  "/img/ibib/16.jpg",
-];
+const images = [...Array(16).keys()].map((key) => {
+  return {
+    small: `/img/ibib/${key + 1}.jpg`,
+    large: `/img/ibib/large/${key + 1}.jpg`,
+  };
+});
 
 export default function IBiB() {
   return (
