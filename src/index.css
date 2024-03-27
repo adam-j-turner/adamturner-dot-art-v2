@@ -106,11 +106,6 @@ a.nostyle:visited {
   width: auto !important;
   margin: auto !important;
 }
-.image-slider-mobile #react-modal-image-img {
-  height: auto !important;
-  width: 100vw !important;
-  margin: auto !important;
-}
 
 h1 {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;

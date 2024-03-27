@@ -1,4 +1,4 @@
-import { isMobile } from "react-device-detect";
+import { BrowserView, MobileView, isMobile } from "react-device-detect";
 import ModalImage from "react-modal-image";
 
 interface ImageSliderProps {
@@ -11,12 +11,19 @@ export default function ImageSlider({
   extraLarge = false,
 }: ImageSliderProps) {
   const images = paths.map((path) => (
-    <ModalImage
-      hideDownload={true}
-      hideZoom={true}
-      small={path.small}
-      large={path.large}
-    />
+    <>
+      <BrowserView>
+        <ModalImage
+          hideDownload={true}
+          hideZoom={true}
+          small={path.small}
+          large={path.large}
+        />
+      </BrowserView>
+      <MobileView>
+        <img src={path.small} />
+      </MobileView>
+    </>
   ));
 
   let className = isMobile ? "image-slider-mobile" : "image-slider";
