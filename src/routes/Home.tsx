@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="main">
       <Header />
-      <ImageSlider extraLarge={true} paths={["/img/home/1.jpg"]} />
+      <ImageSlider extraLarge={true} paths={[{small: "/img/home/1.jpg", large: "/img/home/1.jpg"}]} />
     </div>
   );
 }
