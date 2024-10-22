@@ -12,7 +12,7 @@ const router = createBrowserRouter([
     element: <Home />
   },
   {
-    path: "/ibib",
+    path: "/ysanthem",
     element: <IBiB />
   },
   {

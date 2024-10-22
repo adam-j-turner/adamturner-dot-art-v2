@@ -9,7 +9,7 @@ export default function Header() {
         </a>
       </h1>
       <div className="project-list">
-        <ProjectLink path="/ibib">I Believe in Bugs</ProjectLink>
+        <ProjectLink path="/ysanthem">Ysanthem</ProjectLink>
         <ProjectLink path="/About">About</ProjectLink>
       </div>
     </div>
