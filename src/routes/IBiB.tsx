@@ -3,7 +3,7 @@ import ImageSlider from "../components/ImageSlider";
 import ProjectDescription from "../components/ProjectDescription";
 import ScrollDirIndicator from "../components/ScrollDirIndicator";
 
-const images = [...Array(22).keys()].map((key) => {
+const images = [...Array(23).keys()].map((key) => {
   return {
     small: `/img/ibib/${key + 1}.jpg`,
     large: `/img/ibib/large/${key + 1}.jpg`,
@@ -20,7 +20,7 @@ export default function IBiB() {
             <i>
               <b>Ysanthem</b>
             </i>{" "}
-            seeks to extend the Midwestern landscape into the genre of 'magical realism.' Comprising over ten years’ work, this narrative inextricably ties the realms of fantasy and reality, shifting unexpectedly from rural America to placeless storybook scenes, then back again.
+            is a work in progress.
           </ProjectDescription>
           <ScrollDirIndicator />
           <ImageSlider paths={images} />
